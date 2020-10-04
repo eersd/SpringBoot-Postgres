@@ -28,3 +28,9 @@ Then can run sql queries
 - DAO
 - DAO Implementation
 - Service
+
+Set environment variables and configuration in application.properties
+
+    spring.datasource.url=jdbc:postgresql://localhost:5432/demodb
+    spring.datasource.username=postgres
+    spring.datasource.password=password
